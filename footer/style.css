@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100vw;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
