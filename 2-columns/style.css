@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    gap: 1rem;
+    border: 1px dashed red;
+}
+
+.col_1 {
+    border: 1px solid black;
+    flex-basis: 25%;
+    margin: 10px 0;
+}
+
+.col_2 {
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 10px 0;
+}
